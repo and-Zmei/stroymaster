@@ -1,0 +1,368 @@
+
+@font-face {
+    font-family: 'TruthCYRLight';
+    src: url('fonts/truthcyr-light.eot');
+    src: url('fonts/truthcyr-light.eot') format('embedded-opentype'),
+         url('fonts/truthcyr-light.woff') format('woff'),
+         url('fonts/truthcyr-light.ttf') format('truetype'),
+         url('fonts/truthcyr-light.svg#TruthCYRLight') format('svg');
+}
+
+@font-face {
+    font-family: 'TruthCYRRegular';
+    src: url('fonts/truthcyr-regular.eot');
+    src: url('fonts/truthcyr-regular.eot') format('embedded-opentype'),
+         url('fonts/truthcyr-regular.woff') format('woff'),
+         url('fonts/truthcyr-regular.ttf') format('truetype'),
+         url('fonts/truthcyr-regular.svg#TruthCYRRegular') format('svg');
+}
+
+
+
+body{
+	font-family: 'CalibriRegular', Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+
+	/*-webkit-text-size-adjust: none;*/
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body hr{
+
+	margin-top: 0;
+	height: 2px;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+ font-family: inherit;
+ font-size: inherit;
+}
+
+
+
+.columns{
+	/*border: 1px solid #fff;*/
+}
+
+
+::selection{
+
+background-color: #93ad16;
+color: #fff;
+
+}
+
+
+header{
+	background-color: #93ad16;
+}
+
+
+h4{
+	font-family: 'Calibri Light', Calibri Light, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 1.7em;
+
+}
+
+
+.mt{
+margin-top: 20px;
+}
+
+.mt-plus{
+margin-top: 36px;
+}
+
+.mb{
+margin-bottom: 18px
+}
+
+.mb-plus{
+margin-bottom: 36px;
+}
+
+
+.tb{
+
+	color:#000 !important; 
+}
+
+.tw{
+	color: #fff !important;
+
+}
+
+/*---------------ШАПКА-------------*/
+
+
+header{
+	font-family: 'TruthCYRLight', Arial;
+	text-shadow: 0 1px 1px rgba(133, 133, 133, 0.25);
+	color: #fff;
+}
+
+
+header h1{
+	font-size: 3.9em;
+	color: #fff;
+	letter-spacing: 2px;
+	font-family: 'TruthCYRLight', Arial;
+	text-shadow: 0 1px 1px rgba(133, 133, 133, 0.25);
+	margin:0;
+	line-height: 1em;
+
+}
+
+
+
+
+
+header p
+{
+	font-size: 1.2em;
+	letter-spacing: 0px;
+}
+
+
+header [data-magellan-expedition] {
+background-color: #93ad16 !important;
+z-index: 50;
+min-width: 100%;
+padding: 10px 10px 0px 10px;
+text-transform: uppercase;
+
+
+}
+
+header [data-magellan-expedition] a {
+color: #fff ;
+font-size: .85em !important;
+letter-spacing: 1px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+
+header  .sub-nav li{
+	margin-left: 2rem;
+}
+
+
+header .sub-nav a:hover{
+
+	color: #000;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+
+.arrow_box {
+position: relative;
+}
+
+.arrow_box:after {
+top: 100%;
+left: 50%;
+border: solid rgba(0, 0, 0, 0);
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+border-color: rgba(147, 173, 22, 0);
+border-top-color: #93AD16;
+border-width: 15px;
+margin-left: -15px;
+}
+
+
+
+
+/*-------------ТЕЛО --------------*/
+
+
+main>.row {
+	font-size: 20px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	
+
+}
+
+
+main .large-12 p{
+
+	font-size: 20px;
+	line-height: 24px;
+	color: #46464E;
+}
+
+
+.services-wrapper{
+
+	background-color: #f0f0f0;
+	
+}
+
+.services-wrapper .border{
+
+	height: 15px; 
+	background: url(../img/border.png) repeat-x 0 0
+}
+
+.services-wrapper hr{
+	border-color: #000;
+}
+
+
+
+.various-wrapper{
+background: url(../img/rama.png) no-repeat ;
+	
+}
+
+
+.various-wrapper p{
+	font-size: .9rem;
+	line-height: 1.5;
+}
+
+.various-text{
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 20px;
+}
+
+
+
+
+footer{
+	background-color: #93ad16;
+}
+
+
+footer{
+color: #fff;
+	
+}
+
+footer h4{color: #fff;}
+
+footer address{
+
+font-style: normal;
+font-size: 20px;
+font-family: 'Calibri Light', Calibri Light, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+
+footer .tel span{
+
+	font-size: 1.7em;
+	font-family: 'TruthCYRRegular', Arial;
+	text-shadow: 0 1px 1px rgba(133, 133, 133, 0.25);
+}
+
+footer .tel strong{
+font-style: normal;
+font-weight: normal;
+}
+
+footer .gmap{
+	overflow: hidden;
+}
+
+
+footer label
+{
+	position: absolute;
+	top: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #A7A7A7;
+	padding-left: 10px;
+}
+
+footer label span{
+
+	color: #93AD16;
+}
+
+
+footer input
+{
+	padding: 0px 10px 0px 70px !important;
+}
+
+footer textarea{
+	padding: 25px 10px 0px 10px !important;
+	min-height: 90px;
+}
+
+footer .button {
+	background: #333 !important;
+}
+
+
+.form div{
+position: relative;
+
+}
+
+.gsInformer{
+	position: absolute !important;
+}
+
+
+.gsInfoWrapper table,
+.gsLinks table
+{
+	background: none;
+}
+
+
+.gsTemp span{
+
+	font-size: 1.3em;
+}
+
+.gsAddInfo2,
+.gsLinks{
+	display: none !important;
+}
+
+
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+	header h1{ font-size: 2.5em; }
+
+	header p { font-size: 1em;}
+}
+
+@media only screen and (max-width: 40em) {
+
+
+	footer .tel span {
+	font-size: 1.3em;
+	}
+
+
+	header h1{ font-size: 2.8em; }
+	header p { font-size: 1em;}
+
+
+	main .large-12 p{
+
+		font-size: 1em;
+	}
+ } 
